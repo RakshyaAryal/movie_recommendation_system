@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h2 id="login-header">LOGIN PAGE</h2>
+    
+    <form id="login-form">
+        <div class="form-group">
+            <input type="text" class="form-control" name="email" id="email-field" placeholder="Email id-"><br>
+            </div>
+            <br>
+            <br>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" id="password-field"  placeholder="Password-"><br>
+        </div>
+        <br>
+        <br>
+        <input type="submit" name="continue" value="Continue" class="btn-success">
+        <div class="form-text">
+            <p id="continue-message"> By continuing, you agree to terms and conditions of Use and Privacy notice <span id="error-msg-second-line">and/or password</span></p>
+          </div>
+    </form>
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid email <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+  
+  </main>
+</body>
+
+</html>
